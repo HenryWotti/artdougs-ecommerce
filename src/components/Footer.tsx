@@ -65,11 +65,11 @@ const Footer = () => {
               placeholder="Email address"
               className="p-4 w-3/4"
             />
-            <button className="w-1/4 bg-lama text-white">JOIN</button>
+            <button className="w-1/4 bg-lama text-white">PARTICIPE</button>
           </div>
           <span className="font-semibold">Formas de Pagamento</span>
           <div className="flex justify-between">
-            <Image src="/paypal.png" alt="" width={40} height={20} />
+            {/*<Image src="/paypal.png" alt="" width={40} height={20} />*/}
             <Image src="/mastercard.png" alt="" width={40} height={20} />
             <Image src="/visa.png" alt="" width={40} height={20} />
           </div>
