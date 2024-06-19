@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Lama Dev E-Commerce Application",
-  description: "A complete e-commerce application with Next.js and Wix",
+  title: "MundinhoDoug - Venha explorar nossas artes!",
+  description: "Explore nossa loja artesanal com produtos únicos! Encontre itens exclusivos, incluindo acessórios, decoração, roupas temáticas e presentes criativos inspirados em diversos temas!",
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body className={inter.className}>{children}</body>
     </html>
   );
