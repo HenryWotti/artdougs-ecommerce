@@ -1,4 +1,4 @@
-import Filter from "@/components/Filter";
+import Filter from "@/components/Filters";
 import ProductList from "@/components/ProductList";
 import Skeleton from "@/components/Skeleton";
 import { wixClientServer } from "@/lib/wixClientServer";

@@ -13,7 +13,9 @@ const ProfilePage = async () => {
   });
 
   if (!user.member?.contactId) {
-    return <div className="">Não está logado!</div>;
+    return <div className="">
+              Não está logado!
+            </div>;
   }
 
   const orderRes = await wixClient.orders.searchOrders({
